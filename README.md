@@ -65,7 +65,8 @@ Sample inputs and outputs:
 
 “CBAD” => null
 
-```javascriptconst firstRecurring = (string) => {
+```javascript
+const firstRecurring = (string) => {
   const uniques = [];
   const duplicates = [];
   string.split('').forEach(c => {
